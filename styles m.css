@@ -1,0 +1,45 @@
+body {
+  background-color: #eef2f3;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Title styling */
+.title {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Container to align boxes */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+/* General box style */
+.card {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Different styles */
+.one {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+}
+
+.two {
+  background: linear-gradient(45deg, #a18cd1, #fbc2eb);
+}
+
+.three {
+  background: linear-gradient(45deg, #fbc2eb, #a6c1ee);
+}
